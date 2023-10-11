@@ -1,6 +1,6 @@
 # compo-demo
 
-Live Demo:
+Live Demo Website:
 https://adir-sl.github.io/compo-demo
 
 This is a repo for demos of the compo.js library.
