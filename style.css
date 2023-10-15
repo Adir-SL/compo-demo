@@ -5,6 +5,7 @@ header{
     height: 120px;
     padding: 0 40px;
     align-items: center;
+    top: 0;
 }
 .logo{
     background-image: url(logo.svg);
