@@ -1,7 +1,18 @@
+header{
+    display: flex;
+    position: sticky;
+    width: calc(100% - 80px);
+    height: 120px;
+    padding: 0 40px;
+    align-items: center;
+}
+.logo{
+    background-image: url(logo.svg);
+    background-size: contain;
+    flex-grow: 1;
+    height: 100%;
+    background-repeat: no-repeat;
+}
 button{
-    background-color: black;
-    color: white;
-    padding: 8px;
-    border: none;
-    outline: none;
+    height: fit-content
 }
