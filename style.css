@@ -26,6 +26,7 @@ button{
     outline-offset: -4px;
     outline: 4px solid transparent;
     transition: all 100ms ease-out;
+    font-family: 'Inter', sans-serif;
 }
 button:hover{
     background-color: #ffffff;
