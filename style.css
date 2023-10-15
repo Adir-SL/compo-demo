@@ -31,6 +31,9 @@ button:hover{
     background-color: #ffffff;
     color: #000000;
 }
+button:active{
+    background-color: #eeeeee;
+}
 button:focus-visible{
     outline: 4px solid skyblue;
     outline-offset: 2px;
