@@ -46,6 +46,7 @@ section{
 }
 details{
     border: 1px solid black;
+    border-radius: 8px;
     padding: 24px;
 }
 summary{
