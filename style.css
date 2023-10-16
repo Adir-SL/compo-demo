@@ -46,4 +46,5 @@ section{
 }
 details{
     border: 1px solid black;
+    padding: 24px;
 }
