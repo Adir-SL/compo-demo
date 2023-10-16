@@ -50,6 +50,7 @@ details{
     border-radius: 8px;
     padding: 24px;
     line-height: 1.5;
+    font-family: 'Inter', sans-serif;
 }
 summary{
     cursor: pointer;
