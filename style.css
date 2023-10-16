@@ -24,9 +24,6 @@ button{
     border-radius: 8px;
     padding: 8px 24px;
     cursor: pointer;
-    outline-offset: -4px;
-    outline: 4px solid transparent;
-    transition: all 100ms ease-out;
     font-family: 'Inter', sans-serif;
 }
 button:hover{
@@ -35,6 +32,11 @@ button:hover{
 }
 button:active{
     background-color: #eeeeee;
+}
+a{
+    outline-offset: -4px;
+    outline: 4px solid transparent;
+    transition: all 100ms ease-out;
 }
 a:focus-visible{
     outline: 4px solid skyblue;
