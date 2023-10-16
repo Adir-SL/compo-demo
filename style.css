@@ -55,3 +55,9 @@ summary{
     cursor: pointer;
     font-size: 1.5em;
 }
+details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
