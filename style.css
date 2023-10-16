@@ -1,9 +1,9 @@
 header{
     display: flex;
     position: sticky;
-    width: calc(100% - 80px);
+    width: 80%;
     height: 120px;
-    padding: 0 40px;
+    padding: 0 10%;
     align-items: center;
     top: 0;
     gap: 12px;
@@ -41,4 +41,6 @@ button:focus-visible{
 }
 section{
     min-height: 100vh;
+    width: 80%;
+    padding: 0 10%;
 }
