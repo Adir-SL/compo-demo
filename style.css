@@ -27,8 +27,8 @@ button{
     font-family: 'Inter', sans-serif;
 }
 button.secondary{
-    border: 1px solid #333333;
-    background-color: #333333;
+    border: 1px solid #111111;
+    background-color: #111111;
 }
 button:hover{
     background-color: #ffffff;
