@@ -26,6 +26,10 @@ button{
     cursor: pointer;
     font-family: 'Inter', sans-serif;
 }
+button.secondary{
+    border: 1px solid #333333;
+    background-color: #333333;
+}
 button:hover{
     background-color: #ffffff;
     color: #000000;
