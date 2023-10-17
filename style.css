@@ -58,6 +58,7 @@ details{
 summary{
     cursor: pointer;
     font-size: 1.5em;
+    user-select: none;
 }
 details > summary {
     list-style: none;
