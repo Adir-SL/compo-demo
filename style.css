@@ -27,7 +27,6 @@ button{
     font-family: 'Inter', sans-serif;
 }
 button.secondary{
-    border: 1px solid #666666;
     background-color: #666666;
 }
 button:hover{
