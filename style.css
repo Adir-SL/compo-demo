@@ -69,6 +69,7 @@ details{
 details pre{
     background-color: lightgray;
     border-radius: 4px;
+    padding-left: 32px;
 }
 summary{
     cursor: pointer;
