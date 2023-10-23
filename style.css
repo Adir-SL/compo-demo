@@ -1,3 +1,6 @@
+body{
+    color: #333333;
+}
 header{
     display: flex;
     position: sticky;
