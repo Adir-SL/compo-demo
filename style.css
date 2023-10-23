@@ -74,6 +74,9 @@ details pre{
 code{
     font-family: 'Fira Mono', monospace;
 }
+code b{
+    
+}
 summary{
     cursor: pointer;
     font-size: 1.5em;
