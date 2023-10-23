@@ -66,6 +66,10 @@ details{
     line-height: 1.5;
     font-family: 'Inter', sans-serif;
 }
+details pre{
+    background-color: lightgray;
+    
+}
 summary{
     cursor: pointer;
     font-size: 1.5em;
