@@ -67,7 +67,7 @@ details{
     font-family: 'Inter', sans-serif;
 }
 details pre{
-    background-color: lightgray;
+    background-color: #eeeeee;
     border-radius: 4px;
     padding: 24px;
 }
