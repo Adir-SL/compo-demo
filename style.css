@@ -73,9 +73,11 @@ details pre{
 }
 code{
     font-family: 'Fira Mono', monospace;
+    color: #999999;
 }
 code b{
     font-weight: 700;
+    color: #000000;
 }
 summary{
     cursor: pointer;
