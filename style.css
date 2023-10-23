@@ -79,7 +79,9 @@ code b{
     font-weight: 700;
     color: #000000;
 }
-code i{}
+code i{
+    color: #999999;
+}
 summary{
     cursor: pointer;
     font-size: 1.5em;
