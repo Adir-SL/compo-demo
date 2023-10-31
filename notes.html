@@ -39,18 +39,18 @@
         Download the compo.js or use it as a link to this GitHub repo.<br/>
         Always put the <code>&lt;script&gt;</code> tag linking to it at the end of your <code>&lt;body&gt;</code> tag.<br/>
 
-        <pre><code>&lt;script src="https://adir-sl.github.io/compojs/compo.js"&gt;&lt;/script&gt;</code></pre>
+        <pre><code>&lt;script src="<b>https://adir-sl.github.io/compojs/compo.js</b>"&gt;&lt;/script&gt;</code></pre>
 
         OR
 
-        <pre><code>&lt;script src="compo.js"&gt;&lt;/script&gt;</code></pre>
+        <pre><code>&lt;script src="<b>compo.js</b>"&gt;&lt;/script&gt;</code></pre>
         
         <h3>Basic Usage</h3>
         All custom tags should be hyphenated eg. button-primary, custom-input, radoi-group etc.
 
         This library will take code like:
 
-        <button-primary>...</button-primary>
+        <pre><code>&lt;button-primary&gt;<i>...</i>&lt;/button-primary&gt;</code></pre>
         and replace it with the corresponding file named button-primary.html.
 
         Also the CSS coming from the file named button-primary.html should be scoped to not affect other buttons.
@@ -62,12 +62,13 @@
 
         In your host file:
 
-        <button-primary {label}="button-1">...</button-primary>
-        <button-primary {label}="button-2">...</button-primary>
-        <button-primary {label}="button-3">...</button-primary>
+        <pre><code>&lt;button-primary <b>{label}="button-1"</b>&gt;<i>...</i>&lt;/button-primary&gt;
+&lt;button-primary <b>{label}="button-2"</b>&gt;<i>...</i>&lt;/button-primary&gt;
+&lt;button-primary <b>{label}="button-3"</b>&gt;<i>...</i>&lt;/button-primary&gt;</code></pre>
+
         In your component file (named button-primary.html):
 
-        <button>{label}</button>
+        <pre><code>&lt;button&gt;<b>{label}</b>&lt;/button&gt;</code></pre>
         This will result in 3 buttons with numbered labels, all loaded from the same component file (button-primary.html).
 
         Support
