@@ -77,6 +77,7 @@ pre{
 code{
     font-family: 'Fira Mono', monospace;
     color: #666666;
+    line-height: 1.5;
     white-space: break-spaces;
 }
 code b{
@@ -87,6 +88,8 @@ code i{
     color: #b9b9b9;
 }
 code s{
+    color: #aaaaaa;
+    font-size: 0.9em;
     text-decoration: none;
 }
 summary{
