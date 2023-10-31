@@ -74,6 +74,7 @@ details pre{
 code{
     font-family: 'Fira Mono', monospace;
     color: #666666;
+    white-space: break-spaces;
 }
 code b{
     font-weight: 700;
