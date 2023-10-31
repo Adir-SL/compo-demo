@@ -44,6 +44,9 @@ button.secondary:hover{
 button:active{
     background-color: #eeeeee;
 }
+h2{
+    font-family: 'Inter', sans-serif;
+}
 a{
     outline-offset: -4px;
     outline: 4px solid transparent;
