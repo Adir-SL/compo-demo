@@ -72,7 +72,7 @@ section{
 p{
     line-height: 1.5;
 }
-.license{
+.license p{
     margin-bottom: 3em;
 }
 details{
