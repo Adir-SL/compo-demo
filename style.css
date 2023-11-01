@@ -104,6 +104,7 @@ pre{
 code{
     background-color: #eeeeee;
     border-radius: 4px;
+    padding: 4px;
     font-family: 'Fira Mono', monospace;
     color: #666666;
     line-height: 1.5;
