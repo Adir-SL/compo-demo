@@ -36,8 +36,8 @@
     <section>
         <!-- Getting Started -->
         <h2>Getting Started</h2>
-        Download the compo.js or use it as a link to this GitHub repo.<br/>
-        Always put the <code>&lt;script&gt;</code> tag linking to it at the end of your <code>&lt;body&gt;</code> tag.<br/>
+        <p>Download the compo.js or use it as a link to this GitHub repo.<br/>
+        Always put the <code>&lt;script&gt;</code> tag linking to it at the end of your <code>&lt;body&gt;</code> tag.</p><br/>
 
         <pre><code>&lt;script src="<b>https://adir-sl.github.io/compojs/compo.js</b>"&gt;&lt;/script&gt;</code></pre>
 
@@ -46,16 +46,16 @@
         <pre><code>&lt;script src="<b>compo.js</b>"&gt;&lt;/script&gt;</code></pre>
         
         <h3>Basic Usage</h3>
-        All custom tags should be hyphenated eg. button-primary, custom-input, radoi-group etc.
+        <p>All custom tags should be hyphenated eg. button-primary, custom-input, radoi-group etc.
 
-        This library will take code like:
+        This library will take code like:</p>
 
         <pre><code>&lt;button-primary&gt;<i>...</i>&lt;/button-primary&gt;</code></pre>
         and replace it with the corresponding file named button-primary.html.
 
-        Also the CSS coming from the file named button-primary.html should be scoped to not affect other buttons.
+        <p>Also the CSS coming from the file named button-primary.html should be scoped to not affect other buttons.</p>
 
-        Props
+        <h3>Props</h3>
         You can also add props to change some properties in the component you're loading.
 
         All props should be inside curly brackets eg. {prop}.
@@ -78,7 +78,7 @@
         <button-primary {label}="button-1">...</button-primary>
         <button-primary {label}="button-2">...</button-primary>
         <button-primary {label}="button-3">...</button-primary>
-
+    </p>
         <h3>Support</h3>
         This library is still under active development.
 
