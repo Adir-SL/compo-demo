@@ -68,6 +68,10 @@ section{
     width: 80%;
     padding: 40px 10%;
 }
+p{
+    line-height: 1.5;
+    margin-bottom: 3em;
+}
 details{
     border: 1px solid #bbbbbb;
     border-radius: 8px;
