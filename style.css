@@ -71,6 +71,8 @@ section{
 }
 p{
     line-height: 1.5;
+}
+.license{
     margin-bottom: 3em;
 }
 details{
