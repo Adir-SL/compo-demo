@@ -12,6 +12,7 @@ header{
     top: 0;
     gap: 12px;
     background-color: #ffffff;
+    z-index: 999;
 }
 .logo{
     background-image: url(logo.svg);
