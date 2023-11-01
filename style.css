@@ -92,6 +92,9 @@ details::after{
     font-size: 2em;
     transition: transform 150ms ease-in-out 0s;
 }
+details[open]{
+    max-height: 500px;
+}
 details[open]::after{
     transform: rotate(45deg);
 }
