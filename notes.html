@@ -56,29 +56,29 @@
         <p>Also the CSS coming from the file named button-primary.html should be scoped to not affect other buttons.</p>
 
         <h3>Props</h3>
-        You can also add props to change some properties in the component you're loading.
+        <p>You can also add props to change some properties in the component you're loading.
 
         All props should be inside curly brackets eg. {prop}.
 
-        In your host file:
+        In your host file:</p>
 
         <pre><code>&lt;button-primary <b>{label}="button-1"</b>&gt;<i>...</i>&lt;/button-primary&gt;
 &lt;button-primary <b>{label}="button-2"</b>&gt;<i>...</i>&lt;/button-primary&gt;
 &lt;button-primary <b>{label}="button-3"</b>&gt;<i>...</i>&lt;/button-primary&gt;</code></pre>
 
-        In your component file (named button-primary.html):
+        <p>In your component file (named button-primary.html):</p>
 
         <pre><code><s>&lt;!-- button-primary.html --&gt;</s>
 &lt;button&gt;<b>{label}</b>&lt;/button&gt;</code></pre>
 
-        This will result in 3 buttons with numbered labels, all loaded from the same component file (button-primary.html).
+        <p>This will result in 3 buttons with numbered labels, all loaded from the same component file (button-primary.html).
         <br/><br/><br/><br/>
-        The result:
+        The result:</p>
         <br/><br/>
         <button-primary {label}="button-1">...</button-primary>
         <button-primary {label}="button-2">...</button-primary>
         <button-primary {label}="button-3">...</button-primary>
-    </p>
+
         <h3>Support</h3>
         This library is still under active development.
 
