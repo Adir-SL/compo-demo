@@ -89,6 +89,10 @@ details::after{
     top: 0.5em;
     right: 0.75em;
     font-size: 2em;
+    transition: transform 150ms ease-in-out 0s;
+}
+details[open]::after{
+    transform: rotate(45deg);
 }
 pre{
     background-color: #eeeeee;
