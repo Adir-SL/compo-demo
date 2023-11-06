@@ -126,7 +126,7 @@
         <details>
             <summary>Sometimes I can see the styles of wrong components</summary>
             That might happen if your server doesn't respond quick enough, could be due to physical distance, or a virtual one like a VPN.<br/>
-            A quick fix can be to manipulate the numbers in the <code>compo.js</code> file at the end of <code>findTags()</code> function.
+            A quick fix can be to manipulate the numbers in the <code>compo.js</code> file at the end of <code>findTags()</code> function. Just don't reverse the order by making the first number <b>lower</b> than the second.
             <pre><code><i>...</i>
     setTimeout(function(){ editStyles(); }, <b>250</b>);
     setTimeout(function(){ replaceProps(); }, <b>10</b>);
