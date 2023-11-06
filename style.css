@@ -12,7 +12,8 @@ header{
     align-items: center;
     top: 0;
     gap: 12px;
-    /* background-color: #ffffff; */
+    background-color: #000000bb;
+    backdrop-filter: blur(2vmin);
     z-index: 999;
 }
 .logo{
