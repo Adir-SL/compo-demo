@@ -12,7 +12,7 @@ header{
     align-items: center;
     top: 0;
     gap: 12px;
-    background-color: #000000bb;
+    background-color: #000000cc;
     backdrop-filter: blur(2vmin);
     z-index: 999;
 }
