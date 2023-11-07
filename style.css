@@ -38,16 +38,16 @@ header{
 }
 button{
     height: fit-content;
-    background-color: #000000;
-    color: #ffffff;
-    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
     border-radius: 8px;
     padding: 8px 24px;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
 }
 button.secondary{
-    background-color: #555555;
+    background-color: #cccccc;
     /* color: #000000; */
 }
 button:hover{
