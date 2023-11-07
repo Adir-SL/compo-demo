@@ -48,7 +48,7 @@ button{
 }
 button.secondary{
     background-color: #cccccc;
-    border-color: inherit;
+    border-color: #cccccc;
 }
 button:hover{
     background-color: #000000;
