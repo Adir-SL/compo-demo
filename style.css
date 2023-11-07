@@ -50,8 +50,8 @@ button.secondary{
     background-color: #cccccc;
 }
 button:hover{
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
 button.secondary:hover{
     color: #999999;
