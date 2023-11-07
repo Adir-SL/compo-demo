@@ -3,6 +3,7 @@
     --codeText: #666666;
     --codeBold: #000000;
     --codeItalic: #b9b9b9;
+    --codeStroke: #aaaaaa;
 }
 body{
     background-color: #000000;
@@ -110,16 +111,16 @@ details[open]::after{
     transform: rotate(45deg);
 }
 pre{
-    background-color: #eeeeee;
+    background-color: var(--codeBG);
     border-radius: 4px;
     padding: 16px;
 }
 code{
-    background-color: #eeeeee;
+    background-color: var(--codeBG);
     border-radius: 4px;
     padding: 4px;
     font-family: 'Fira Mono', monospace;
-    color: #666666;
+    color: var(--codeText);
     line-height: 1.5;
     white-space: break-spaces;
 }
@@ -128,13 +129,13 @@ pre code{
 }
 code b{
     font-weight: 700;
-    color: #000000;
+    color: var(--codeBold);
 }
 code i{
-    color: #b9b9b9;
+    color: var(--codeItalic);
 }
 code s{
-    color: #aaaaaa;
+    color: var(--codeStroke);
     font-size: 0.9em;
     text-decoration: none;
 }
