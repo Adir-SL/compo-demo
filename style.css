@@ -72,7 +72,7 @@ section{
     padding: 40px 10%;
 }
 iframe{
-    box-shadow: 0 0 0 2px #ffffff;
+    box-shadow: 0 0 0 1px #dfdfdf;
 }
 p{
     line-height: 1.5;
