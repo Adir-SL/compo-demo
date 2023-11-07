@@ -1,3 +1,8 @@
+:root{
+    --codeBG: #eeeeee;
+    --codeText: #666666;
+    --codeBold: ;
+}
 body{
     background-color: #000000;
     color: #ffffff;
