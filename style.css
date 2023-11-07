@@ -4,6 +4,12 @@
     --codeBold: #000000;
     --codeItalic: #b9b9b9;
     --codeStroke: #aaaaaa;
+
+    --codeBG: #333333;
+    --codeText: #bbbbbb;
+    --codeBold: #ffffff;
+    --codeItalic: #666666;
+    --codeStroke: #aaaaaa;
 }
 body{
     background-color: #000000;
