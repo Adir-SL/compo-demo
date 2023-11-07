@@ -1,7 +1,8 @@
 :root{
     --codeBG: #eeeeee;
     --codeText: #666666;
-    --codeBold: ;
+    --codeBold: #000000;
+    --codeItalic: #b9b9b9;
 }
 body{
     background-color: #000000;
