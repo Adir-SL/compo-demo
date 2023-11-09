@@ -64,6 +64,9 @@ button:active, button.secondary:active{
 button.download, button.github{
     padding-left: 52px;
 }
+button.download, button.github{
+    display: flex;
+}
 /* button.download::before, button.github::before{
     content: '';
     position: absolute;
