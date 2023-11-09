@@ -40,7 +40,7 @@ button{
     height: fit-content;
     background-color: transparent;
     color: #ffffff;
-    border: 1px solid #ffffff;
+    border: 1px solid;
     border-radius: 8px;
     padding: 8px 24px;
     cursor: pointer;
