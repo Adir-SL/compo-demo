@@ -51,8 +51,8 @@ button.secondary{
     color: #999999;
     border-color: #999999;
 }
-a button{
-    text-decoration: none !important;
+a:hover button{
+    text-decoration: none;
 }
 button:hover{
     color: #333333;
