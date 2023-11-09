@@ -37,6 +37,7 @@ header{
     background-repeat: no-repeat;
 }
 button{
+    position: relative;
     height: fit-content;
     background-color: transparent;
     color: #ffffff;
@@ -61,6 +62,7 @@ button:active, button.secondary:active{
     background-color: #adadad;
 }
 button.download::before{
+    position: absolute;
     width: 24px;
     height: 24px;
     background-image: url(images/icon-download.svg);
