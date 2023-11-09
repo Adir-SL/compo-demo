@@ -52,7 +52,7 @@ button.secondary{
     border-color: #999999;
 }
 a button{
-    text-decoration-color: red;
+    text-decoration-color: red !important;
 }
 button:hover{
     color: #333333;
