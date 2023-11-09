@@ -44,6 +44,7 @@ button{
     border: 1px solid #ffffff;
     border-radius: 8px;
     padding: 8px 24px;
+    padding-left: 52px;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
 }
@@ -62,7 +63,10 @@ button:active, button.secondary:active{
     background-color: #adadad;
 }
 button.download::before{
+    content: '';
     position: absolute;
+    left: 24px;
+    top: 2px;
     width: 24px;
     height: 24px;
     background-image: url(images/icon-download.svg);
