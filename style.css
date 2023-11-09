@@ -71,21 +71,6 @@ button.download, button.github{
     gap: 4px;
     padding-right: 32px;
 }
-/* button.download::before, button.github::before{
-    content: '';
-    position: absolute;
-    left: 24px;
-    top: 2px;
-    width: 24px;
-    height: 24px;
-    background-image: url(images/icon-download.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-button.github::before{
-    background-image: url(images/icon-github.svg);
-} */
 h2{
     font-size: 2em;
     font-weight: 500;
