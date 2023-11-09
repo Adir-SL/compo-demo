@@ -66,6 +66,7 @@ button.download, button.github{
     align-items: center;
     justify-content: center;
     gap: 4px;
+    padding-right: 32px;
 }
 /* button.download::before, button.github::before{
     content: '';
