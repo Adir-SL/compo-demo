@@ -54,6 +54,7 @@ button.secondary{
 button:hover{
     color: #333333;
     background-color: #ffffff;
+    text-decoration: none;
 }
 button.secondary:hover{
     background-color: #999999;
