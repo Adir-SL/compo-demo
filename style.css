@@ -61,6 +61,9 @@ button.secondary:hover{
 button:active, button.secondary:active{
     background-color: #adadad;
 }
+button.download, button.github{
+    padding-left: 52px;
+}
 button.download::before{
     content: '';
     position: absolute;
