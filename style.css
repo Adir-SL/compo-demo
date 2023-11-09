@@ -76,7 +76,7 @@ button.download::before, button.github::before{
     background-position: center;
     background-repeat: no-repeat;
 }
-button.github{
+button.github::before{
     background-image: url(images/icon-github.svg);
 }
 h2{
