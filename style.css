@@ -60,6 +60,11 @@ button.secondary:hover{
 button:active, button.secondary:active{
     background-color: #adadad;
 }
+button.download::before{
+    width: 24px;
+    height: 24px;
+    background-image: url(images/icon-download.svg);
+}
 h2{
     font-size: 2em;
     font-weight: 500;
