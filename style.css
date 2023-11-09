@@ -64,7 +64,7 @@ button:active, button.secondary:active{
 button.download, button.github{
     padding-left: 52px;
 }
-button.download::before, button.github::before{
+/* button.download::before, button.github::before{
     content: '';
     position: absolute;
     left: 24px;
@@ -78,7 +78,7 @@ button.download::before, button.github::before{
 }
 button.github::before{
     background-image: url(images/icon-github.svg);
-}
+} */
 h2{
     font-size: 2em;
     font-weight: 500;
