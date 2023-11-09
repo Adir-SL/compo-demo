@@ -55,7 +55,7 @@ button:hover{
     background-color: #ffffff;
 }
 button.secondary:hover{
-    color: #5c5c5c;
+    background-color: #999999;
 }
 button:active{
     background-color: #eeeeee;
