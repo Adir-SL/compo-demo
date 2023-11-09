@@ -63,6 +63,8 @@ button:active, button.secondary:active{
 }
 button.download, button.github{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* button.download::before, button.github::before{
     content: '';
