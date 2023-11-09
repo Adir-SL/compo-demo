@@ -62,9 +62,6 @@ button:active, button.secondary:active{
     background-color: #adadad;
 }
 button.download, button.github{
-    padding-left: 52px;
-}
-button.download, button.github{
     display: flex;
 }
 /* button.download::before, button.github::before{
