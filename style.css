@@ -38,8 +38,8 @@ header{
 }
 button{
     height: fit-content;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 8px;
     padding: 8px 24px;
