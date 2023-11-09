@@ -64,6 +64,9 @@ button.download::before{
     width: 24px;
     height: 24px;
     background-image: url(images/icon-download.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 h2{
     font-size: 2em;
