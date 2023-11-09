@@ -40,7 +40,7 @@ button{
     height: fit-content;
     background-color: transparent;
     color: #ffffff;
-    border: 1px solid;
+    border: 1px solid #ffffff;
     border-radius: 8px;
     padding: 8px 24px;
     cursor: pointer;
@@ -48,9 +48,14 @@ button{
 }
 button.secondary{
     color: #999999;
+    border-color: #999999;
+}
+button:hover{
+    color: #333333;
+    background-color: #ffffff;
 }
 button.secondary:hover{
-    color: #999999;
+    color: #5c5c5c;
 }
 button:active{
     background-color: #eeeeee;
