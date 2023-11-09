@@ -51,8 +51,8 @@ button.secondary{
     color: #999999;
     border-color: #999999;
 }
-a:hover button{
-    text-decoration: none;
+a button{
+    text-decoration-color: red;
 }
 button:hover{
     color: #333333;
