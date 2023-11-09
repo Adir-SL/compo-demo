@@ -65,6 +65,7 @@ button.download, button.github{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 4px;
 }
 /* button.download::before, button.github::before{
     content: '';
