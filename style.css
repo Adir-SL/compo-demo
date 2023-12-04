@@ -50,7 +50,6 @@ button{
 button.secondary{
     background-color: transparent;
     color: #ffffff;
-    /* border-color: #ffffff; */
 }
 a{
     text-decoration: none !important;
