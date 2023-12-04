@@ -125,7 +125,7 @@ details::after{
     transition: transform 150ms ease-in-out 0s;
 }
 details[open]::after{
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
 }
 pre{
     background-color: var(--codeBG);
