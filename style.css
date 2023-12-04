@@ -72,13 +72,16 @@ button.download, button.github{
     padding-right: 32px;
 }
 h2{
+    font-family: 'DM Serif Display', serif;
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 400;
 }
 h3{
+    font-family: 'DM Serif Display', serif;
     font-size: 1.5em;
     margin-bottom: 1em;
     margin-top: 2em;
+    font-weight: 400;
 }
 a{
     outline-offset: -4px;
