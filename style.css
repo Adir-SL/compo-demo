@@ -23,7 +23,7 @@ header{
     height: 120px;
     padding: 0 10%;
     align-items: center;
-    top: 8px;
+    top: 0;
     gap: 12px;
     background-color: #00000099;
     backdrop-filter: blur(1vmin);
