@@ -91,7 +91,7 @@ a:focus-visible{
     border-radius: 8px;
 }
 section{
-    min-height: 100vh;
+    min-height: 80vh;
     width: 80%;
     padding: 40px 10%;
 }
