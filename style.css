@@ -55,14 +55,20 @@ a{
     text-decoration: none !important;
 }
 button:hover{
-    color: #333333;
-    background-color: #ffffff;
+    background-color: #eeeeee;
+    border-color: #eeeeee;
 }
 button.secondary:hover{
-    background-color: #999999;
+    background-color: transparent;
+    color: #dddddd;
 }
-button:active, button.secondary:active{
-    background-color: #adadad;
+button:active{
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
+button.secondary:active{
+    background-color: transparent;
+    color: #cccccc;
 }
 button.download, button.github{
     display: flex;
