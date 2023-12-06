@@ -95,7 +95,7 @@ a{
     transition: all 100ms ease-out;
 }
 a:focus-visible{
-    outline: 4px solid skyblue;
+    outline: 4px solid deepskyblue;
     outline-offset: 2px;
     border-radius: 8px;
 }
