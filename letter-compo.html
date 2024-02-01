@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="letters.css">
 </head>
 <body>
-    <p class="letter" onmouseover="this.innerText=this.parentElement.parentElement.innerHTML;">{letter}</p>
+    <div class="letter" onmouseover="this.getElementsByTagName('p')[0].innerText=this.parentElement.parentElement.innerHTML;">
+        {letter}
+        <p></p>
+    </div>
 </body>
 </html>
