@@ -21,20 +21,16 @@
     text-align: left;
     background-color: #ffffff;
     margin: 0;
-    padding: 0;
+    padding: 12px;
+    border-radius: inherit;
     z-index: 999;
     display: none;
     min-width: 100%;
     min-height: 100%;
     pointer-events: none;
-    /* line-break: strict; */
 }
 .letter p:empty{
     pointer-events: all;
-}
-
-.letter:has(p:empty){
-    /* pointer-events: all; */
 }
 
 .letter:hover p{
