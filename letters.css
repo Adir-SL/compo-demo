@@ -7,21 +7,37 @@
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
-    pointer-events: none;
+    pointer-events: all;
     position: relative;
 }
 
 .letter p{
-    pointer-events: none;
     position: absolute;
-    font-size: 16px;
+    font-size: 12px;
     top: 0;
     left: 0;
     color: red;
     white-space: normal;
+    text-align: left;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    display: none;
+    min-width: 100%;
+    min-height: 100%;
+    pointer-events: none;
     /* line-break: strict; */
+}
+.letter p:empty{
+    pointer-events: all;
 }
 
 .letter:has(p:empty){
-    pointer-events: all;
+    /* pointer-events: all; */
+}
+
+.letter:hover p{
+    z-index: 999;
+    display: block;
 }

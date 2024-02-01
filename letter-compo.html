@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C</title>
+    <title>{letter}</title>
     <link rel="stylesheet" href="letters.css">
 </head>
+
 <body>
-    <div class="letter" onmouseover="this.getElementsByTagName('p')[0].innerText=this.parentElement.parentElement.innerHTML;">
+    <div class="letter">
         {letter}
-        <p></p>
+        <p onmouseover="this.innerText=this.parentElement.parentElement.innerHTML;"></p>
     </div>
 </body>
+
 </html>
