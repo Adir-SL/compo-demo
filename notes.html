@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,56 +9,69 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Inter:wght@300&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <header>
         <!-- Sticky with logo and 2 buttons: Download & GitHub to original repo -->
         <div class="logo"></div>
-        <a href="compo.js" download><button tabindex="-1" class="download"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-            <path d="M7 11l5 5l5 -5"></path>
-            <path d="M12 4l0 12"></path>
-          </svg>Download</button></a>
-        <a href="https://github.com/Adir-SL/compojs" target="_blank"><button tabindex="-1" class="secondary github"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
-          </svg>GitHub</button></a>
+        <a href="compo.js" download><button tabindex="-1" class="download"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-download" width="24" height="24" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
+                    <path d="M7 11l5 5l5 -5"></path>
+                    <path d="M12 4l0 12"></path>
+                </svg>Download</button></a>
+        <a href="https://github.com/Adir-SL/compojs" target="_blank"><button tabindex="-1" class="secondary github"><svg
+                    xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24"
+                    height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                        d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                    </path>
+                </svg>GitHub</button></a>
     </header>
 
     <section>
         <!-- Add logo and graphics with cards that represent different components -->
+        <div class="logo-flex">
+            <letter-c></letter-c>
+            <letter-c></letter-c>
+            <letter-c></letter-c>
+        </div>
     </section>
 
     <section>
         <!-- Live demo from codesandbox, should be well documented -->
         <iframe src="https://codesandbox.io/embed/compo-js-demp-s4f3nx?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:600px; border:0; border-radius: 4px; overflow:hidden;"
-     title="compo.js demp"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+            style="width:100%; height:600px; border:0; border-radius: 4px; overflow:hidden;" title="compo.js demp"
+            allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+            sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
     </section>
 
     <section>
         <!-- Getting Started -->
         <h2>Getting Started</h2>
-        <p>Download the compo.js or use it as a link to this GitHub repo.<br/>
-        Always put the <code>&lt;script&gt;</code> tag linking to it at the end of your <code>&lt;body&gt;</code> tag.</p><br/>
+        <p>Download the compo.js or use it as a link to this GitHub repo.<br />
+            Always put the <code>&lt;script&gt;</code> tag linking to it at the end of your <code>&lt;body&gt;</code>
+            tag.</p><br />
 
         <pre><code>&lt;script src="<b>https://adir-sl.github.io/compojs/compo.js</b>"&gt;&lt;/script&gt;</code></pre>
 
         OR
 
         <pre><code>&lt;script src="<b>compo.js</b>"&gt;&lt;/script&gt;</code></pre>
-        
+
         <h3>Basic Usage</h3>
         <p>All custom tags should be hyphenated eg. button-primary, custom-input, radoi-group etc.
 
-        This library will take code like:</p>
+            This library will take code like:</p>
 
         <pre><code>&lt;button-primary&gt;<i>...</i>&lt;/button-primary&gt;</code></pre>
         and replace it with the corresponding file named button-primary.html.
@@ -67,9 +81,9 @@
         <h3>Props</h3>
         <p>You can also add props to change some properties in the component you're loading.
 
-        All props should be inside curly brackets eg. {prop}.
+            All props should be inside curly brackets eg. {prop}.
 
-        In your host file:</p>
+            In your host file:</p>
 
         <pre><code>&lt;button-primary <b>{label}="button-1"</b>&gt;<i>...</i>&lt;/button-primary&gt;
 &lt;button-primary <b>{label}="button-2"</b>&gt;<i>...</i>&lt;/button-primary&gt;
@@ -80,9 +94,11 @@
         <pre><code><s>&lt;!-- button-primary.html --&gt;</s>
 &lt;button&gt;<b>{label}</b>&lt;/button&gt;</code></pre>
 
-        <p>This will result in 3 buttons with numbered labels, all loaded from the same component file (button-primary.html).
-        <br/><br/>
-        The result:</p>
+        <p>This will result in 3 buttons with numbered labels, all loaded from the same component file
+            (button-primary.html).
+            <br /><br />
+            The result:
+        </p>
         <button-primary {label}="button-1">...</button-primary>
         <button-primary {label}="button-2">...</button-primary>
         <button-primary {label}="button-3">...</button-primary>
@@ -103,14 +119,17 @@
 
         <details>
             <summary>Question</summary>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur provident accusamus qui, voluptates quo iste, molestiae ipsa quis optio asperiores delectus doloremque doloribus dolorem voluptatibus amet ipsam. Nihil, expedita dignissimos!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur provident accusamus qui, voluptates quo
+            iste, molestiae ipsa quis optio asperiores delectus doloremque doloribus dolorem voluptatibus amet ipsam.
+            Nihil, expedita dignissimos!
         </details>
 
         <details>
             <summary>Can I use props for variable content?</summary>
-            Yes, props are used kind of like variables but with a different syntax, for example you can use the code below and just get 3 different buttons, each one with a different label.
-            
-                
+            Yes, props are used kind of like variables but with a different syntax, for example you can use the code
+            below and just get 3 different buttons, each one with a different label.
+
+
             <pre><code>&lt;button-primary <b>{label}="button-1"</b>&gt;<i>...</i>&lt;/button-primary&gt;
 &lt;button-primary <b>{label}="button-2"</b>&gt;<i>...</i>&lt;/button-primary&gt;
 &lt;button-primary <b>{label}="button-3"</b>&gt;<i>...</i>&lt;/button-primary&gt;</code></pre>
@@ -118,7 +137,7 @@
 
         <details>
             <summary>Is it possible to have a compo.js component inside another compo.js component?</summary>
-            Not at the moment, this may come in future versions.<br/>
+            Not at the moment, this may come in future versions.<br />
             With clever architecture, this might not even be an issue.
         </details>
 
@@ -134,8 +153,11 @@
 
         <details>
             <summary>Sometimes I can see the styles of wrong components</summary>
-            That might happen if your server doesn't respond quick enough, could be due to physical distance, or a virtual one like a VPN.<br/>
-            A quick fix can be to manipulate the numbers in the <code>compo.js</code> file at the end of <code>findTags()</code> function. Just don't reverse the order by making the first number <i>lower</i> than the second one.
+            That might happen if your server doesn't respond quick enough, could be due to physical distance, or a
+            virtual one like a VPN.<br />
+            A quick fix can be to manipulate the numbers in the <code>compo.js</code> file at the end of
+            <code>findTags()</code> function. Just don't reverse the order by making the first number <i>lower</i> than
+            the second one.
             <pre><code><i>...</i>
     setTimeout(function(){ editStyles(); }, <b>250</b>);
     setTimeout(function(){ replaceProps(); }, <b>10</b>);
@@ -144,7 +166,9 @@
 
         <details>
             <summary>All my components are at the same place on the page</summary>
-            That might happen if you work with absolute or fixed positioning on all of your components. Try to avoid it by adjusting your positioning to relative so your page will flow as expected, every component layed out one after the other.
+            That might happen if you work with absolute or fixed positioning on all of your components. Try to avoid it
+            by adjusting your positioning to relative so your page will flow as expected, every component layed out one
+            after the other.
         </details>
 
     </section>
@@ -158,16 +182,26 @@
             Copyright © 2023 Adir-SL and contributors
         </p>
         <p>
-            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+            documentation files (the “Software”), to deal in the Software without restriction, including without
+            limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+            the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+            conditions:
         </p>
         <p>
-            The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+            The above copyright notice and this permission notice shall be included in all copies or substantial
+            portions of the Software.
         </p>
         <p>
-            THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+            THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+            LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+            EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+            AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+            OR OTHER DEALINGS IN THE SOFTWARE.
         </p>
     </section>
 
     <script src="compo.js"></script>
 </body>
+
 </html>

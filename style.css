@@ -110,6 +110,9 @@ iframe{
 p{
     line-height: 1.5;
 }
+.logo-flex{
+    display: flex;
+}
 .license p{
     margin-bottom: 3em;
 }
