@@ -16,7 +16,7 @@
     font-size: 12px;
     top: 0;
     left: 0;
-    color: red;
+    color: gray;
     white-space: normal;
     text-align: left;
     background-color: #ffffff;
@@ -28,12 +28,13 @@
     min-width: 100%;
     min-height: 100%;
     pointer-events: none;
+    transform: translate(0, 0);
 }
 .letter p:empty{
     pointer-events: all;
 }
 
 .letter:hover p{
-    z-index: 999;
     display: block;
+    transform: translate(-10vw, 14vw);
 }
