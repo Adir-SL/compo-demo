@@ -112,6 +112,7 @@ p{
 }
 .logo-flex{
     display: flex;
+    gap: 2vw;
 }
 .license p{
     margin-bottom: 3em;
