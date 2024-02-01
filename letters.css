@@ -14,7 +14,7 @@
 .letter p{
     position: absolute;
     font-size: 12px;
-    bottom: 0;
+    top: 0;
     left: 0;
     color: gray;
     white-space: normal;
@@ -28,8 +28,8 @@
     min-width: 100%;
     min-height: 100%;
     pointer-events: none;
-    /* transform: translate(0, 0);
-    transition: transform 200ms linear 100ms; */
+    transform: translate(0, 0);
+    transition: transform 200ms linear 100ms;
 }
 .letter p:empty{
     pointer-events: all;
@@ -37,5 +37,5 @@
 
 .letter:hover p{
     display: block;
-    /* transform: translate(-10vw, 14vw); */
+    transform: translate(-10vw, 14vw);
 }
