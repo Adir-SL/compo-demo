@@ -27,6 +27,8 @@
     display: none;
     min-width: 100%;
     min-height: 100%;
+    opacity: 0;
+    animation: none;
     pointer-events: none;
 }
 .letter p:empty{
@@ -35,4 +37,16 @@
 
 .letter:hover p{
     display: block;
+    animation: tooltip 300ms linear forwards;
+}
+
+@keyframes tooltip {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(-14vw);
+        opacity: 1;
+    }
 }
